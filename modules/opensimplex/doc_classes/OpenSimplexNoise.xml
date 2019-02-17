@@ -37,6 +37,19 @@
 				Generate a noise image with the requested [code]width[/code] and [code]height[/code], based on the current noise parameters.
 			</description>
 		</method>
+		<method name="get_image_slice">
+			<return type="Image">
+			</return>
+			<argument index="0" name="width" type="int">
+			</argument>
+			<argument index="1" name="height" type="int">
+			</argument>
+			<argument index="2" name="depth" type="float">
+			</argument>
+			<description>
+				Generate an image with the requested [code]width[/code] and [code]height[/code], of a slice of the 3d noise based on the current noise parameters.
+			</description>
+		</method>
 		<method name="get_noise_2d">
 			<return type="float">
 			</return>
